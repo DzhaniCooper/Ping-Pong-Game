@@ -1,0 +1,75 @@
+canvas {
+    border-style: ridge;
+    border-width: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    border-color: #303ea8;
+}
+
+body {
+    background-image: url(img/astronomy-beautiful-constellations-813269.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 54px;
+    font-family: 'Press Start 2P', cursive;
+    color: #303ea8;
+    text-align: center;
+}
+
+#coppyRight {
+    text-align: center;
+    font-size: 14px;
+    color: #303ea8;
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+#startBtn { 
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 24px;
+    font-family: 'Press Start 2P', cursive;
+    color: #303ea8;
+    background-color: rgba(15, 15, 109, 0.34);
+    border-color: #303ea8;
+    border-width: thick;
+    border-style: ridge;
+}
+
+
+
+#SplashScreen {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 50%;
+    width:35em;
+    height:18em;
+    margin-top: -10em;
+    margin-left: -17em;
+    font-size:  19px;
+    font-family:sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#startBtn:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
